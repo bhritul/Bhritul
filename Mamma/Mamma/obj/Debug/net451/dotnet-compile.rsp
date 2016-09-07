@@ -9,6 +9,7 @@
 --platform:x64
 --warnings-as-errors:False
 --optimize:False
+--debug-type:portable
 --emit-entry-point:True
 --output-name:Mamma
 --file-version:1.0.0.0

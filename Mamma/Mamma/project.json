@@ -1,8 +1,15 @@
 {
+    "version": "1.0.0-*",
+    "compilationOptions": {
+        "emitEntryPoint": true,
+        "debugType": "portable"
+    },
+
     "buildOptions": {
         "emitEntryPoint": true,
         "preserveCompilationContext": true,
-        "warningsAsErrors": false
+        "warningsAsErrors": false,
+        "debugType": "portable"
     },
 
     "dependencies": {

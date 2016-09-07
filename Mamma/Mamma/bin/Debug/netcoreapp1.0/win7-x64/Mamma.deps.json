@@ -11,7 +11,8 @@
     ],
     "warningsAsErrors": false,
     "optimize": false,
-    "emitEntryPoint": true
+    "emitEntryPoint": true,
+    "debugType": "portable"
   },
   "targets": {
     ".NETCoreApp,Version=v1.0": {

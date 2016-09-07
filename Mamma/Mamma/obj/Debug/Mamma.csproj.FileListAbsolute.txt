@@ -1,0 +1,6 @@
+C:\Users\c15134\Documents\GitHub\Bhritul\Mamma\Mamma\bin\Debug\Mamma.exe.config
+C:\Users\c15134\Documents\GitHub\Bhritul\Mamma\Mamma\bin\Debug\Mamma.exe
+C:\Users\c15134\Documents\GitHub\Bhritul\Mamma\Mamma\bin\Debug\Mamma.pdb
+C:\Users\c15134\Documents\GitHub\Bhritul\Mamma\Mamma\obj\Debug\Mamma.csprojResolveAssemblyReference.cache
+C:\Users\c15134\Documents\GitHub\Bhritul\Mamma\Mamma\obj\Debug\Mamma.exe
+C:\Users\c15134\Documents\GitHub\Bhritul\Mamma\Mamma\obj\Debug\Mamma.pdb

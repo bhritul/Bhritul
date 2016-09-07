@@ -1,0 +1,520 @@
+{
+  "runtimeTarget": {
+    "name": ".NETFramework,Version=v4.5.1/",
+    "signature": "34cfe6a73bcb3ec445308f1422e98c1862b6019e"
+  },
+  "compilationOptions": {
+    "defines": [
+      "DEBUG",
+      "TRACE",
+      "NET451"
+    ],
+    "platform": "x64",
+    "warningsAsErrors": false,
+    "optimize": false,
+    "emitEntryPoint": true
+  },
+  "targets": {
+    ".NETFramework,Version=v4.5.1": {
+      "Mamma/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "1.5.0-rc2-24027"
+        },
+        "compile": {
+          "Mamma.exe": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.0.1-rc2-24027": {
+        "dependencies": {
+          "Microsoft.NETCore.Targets": "1.0.1-rc2-24027"
+        }
+      },
+      "Microsoft.NETCore.Runtime/1.0.2-rc2-24027": {},
+      "Microsoft.NETCore.Targets/1.0.1-rc2-24027": {},
+      "NETStandard.Library/1.5.0-rc2-24027": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1-rc2-24027",
+          "Microsoft.NETCore.Runtime": "1.0.2-rc2-24027",
+          "System.Collections": "4.0.0.0",
+          "System.Collections.Concurrent": "4.0.0.0",
+          "System.Diagnostics.Debug": "4.0.0.0",
+          "System.Diagnostics.Tools": "4.0.0.0",
+          "System.Diagnostics.Tracing": "4.0.10.0",
+          "System.Globalization": "4.0.0.0",
+          "System.IO": "4.0.0.0",
+          "System.IO.Compression": "4.0.0.0",
+          "System.Linq": "4.0.0.0",
+          "System.Net.Http": "4.0.0.0",
+          "System.Net.Primitives": "4.0.0.0",
+          "System.ObjectModel": "4.0.0.0",
+          "System.Reflection": "4.0.0.0",
+          "System.Reflection.Extensions": "4.0.0.0",
+          "System.Reflection.Primitives": "4.0.0.0",
+          "System.Resources.ResourceManager": "4.0.0.0",
+          "System.Runtime": "4.0.10.0",
+          "System.Runtime.Extensions": "4.0.0.0",
+          "System.Runtime.InteropServices": "4.0.10.0",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.0.0-rc2-24027",
+          "System.Runtime.Numerics": "4.0.0.0",
+          "System.Text.Encoding": "4.0.0.0",
+          "System.Text.Encoding.Extensions": "4.0.0.0",
+          "System.Text.RegularExpressions": "4.0.0.0",
+          "System.Threading": "4.0.0.0",
+          "System.Threading.Tasks": "4.0.0.0",
+          "System.Threading.Timer": "4.0.0.0",
+          "System.Xml.ReaderWriter": "4.0.0.0",
+          "System.Xml.XDocument": "4.0.0.0"
+        }
+      },
+      "System.Collections/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Collections.dll": {}
+        }
+      },
+      "System.Collections.Concurrent/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Collections.Concurrent.dll": {}
+        }
+      },
+      "System.Diagnostics.Debug/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Diagnostics.Debug.dll": {}
+        }
+      },
+      "System.Diagnostics.Tools/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Diagnostics.Tools.dll": {}
+        }
+      },
+      "System.Diagnostics.Tracing/4.0.10.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Diagnostics.Tracing.dll": {}
+        }
+      },
+      "System.Globalization/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Globalization.dll": {}
+        }
+      },
+      "System.IO/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.IO.dll": {}
+        }
+      },
+      "System.IO.Compression/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/System.IO.Compression.dll": {}
+        }
+      },
+      "System.Linq/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Linq.dll": {}
+        }
+      },
+      "System.Net.Http/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/System.Net.Http.dll": {}
+        }
+      },
+      "System.Net.Primitives/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Net.Primitives.dll": {}
+        }
+      },
+      "System.ObjectModel/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.ObjectModel.dll": {}
+        }
+      },
+      "System.Reflection/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Reflection.dll": {}
+        }
+      },
+      "System.Reflection.Extensions/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Reflection.Extensions.dll": {}
+        }
+      },
+      "System.Reflection.Primitives/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Reflection.Primitives.dll": {}
+        }
+      },
+      "System.Resources.ResourceManager/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Resources.ResourceManager.dll": {}
+        }
+      },
+      "System.Runtime/4.0.10.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Runtime.dll": {}
+        }
+      },
+      "System.Runtime.Extensions/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Runtime.Extensions.dll": {}
+        }
+      },
+      "System.Runtime.InteropServices/4.0.10.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Runtime.InteropServices.dll": {}
+        }
+      },
+      "System.Runtime.InteropServices.RuntimeInformation/4.0.0-rc2-24027": {
+        "dependencies": {
+          "System.Runtime": "4.0.10.0"
+        },
+        "compile": {
+          "ref/netstandard1.1/System.Runtime.InteropServices.RuntimeInformation.dll": {}
+        }
+      },
+      "System.Runtime.Numerics/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Runtime.Numerics.dll": {}
+        }
+      },
+      "System.Text.Encoding/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Text.Encoding.dll": {}
+        }
+      },
+      "System.Text.Encoding.Extensions/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Text.Encoding.Extensions.dll": {}
+        }
+      },
+      "System.Text.RegularExpressions/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Text.RegularExpressions.dll": {}
+        }
+      },
+      "System.Threading/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Threading.dll": {}
+        }
+      },
+      "System.Threading.Tasks/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Threading.Tasks.dll": {}
+        }
+      },
+      "System.Threading.Timer/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Threading.Timer.dll": {}
+        }
+      },
+      "System.Xml.ReaderWriter/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Xml.ReaderWriter.dll": {}
+        }
+      },
+      "System.Xml.XDocument/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Facades/System.Xml.XDocument.dll": {}
+        }
+      },
+      "mscorlib/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/mscorlib.dll": {}
+        }
+      },
+      "System/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/System.dll": {}
+        }
+      },
+      "System.Core/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/System.Core.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.0.0.0": {
+        "compile": {
+          ".NETFramework/v4.5.1/Microsoft.CSharp.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.1/": {
+      "Mamma/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "1.5.0-rc2-24027"
+        },
+        "runtime": {
+          "Mamma.exe": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.0.1-rc2-24027": {
+        "dependencies": {
+          "Microsoft.NETCore.Targets": "1.0.1-rc2-24027"
+        }
+      },
+      "Microsoft.NETCore.Runtime/1.0.2-rc2-24027": {},
+      "Microsoft.NETCore.Targets/1.0.1-rc2-24027": {},
+      "NETStandard.Library/1.5.0-rc2-24027": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.0.1-rc2-24027",
+          "Microsoft.NETCore.Runtime": "1.0.2-rc2-24027",
+          "System.Collections": "4.0.0.0",
+          "System.Collections.Concurrent": "4.0.0.0",
+          "System.Diagnostics.Debug": "4.0.0.0",
+          "System.Diagnostics.Tools": "4.0.0.0",
+          "System.Diagnostics.Tracing": "4.0.10.0",
+          "System.Globalization": "4.0.0.0",
+          "System.IO": "4.0.0.0",
+          "System.IO.Compression": "4.0.0.0",
+          "System.Linq": "4.0.0.0",
+          "System.Net.Http": "4.0.0.0",
+          "System.Net.Primitives": "4.0.0.0",
+          "System.ObjectModel": "4.0.0.0",
+          "System.Reflection": "4.0.0.0",
+          "System.Reflection.Extensions": "4.0.0.0",
+          "System.Reflection.Primitives": "4.0.0.0",
+          "System.Resources.ResourceManager": "4.0.0.0",
+          "System.Runtime": "4.0.10.0",
+          "System.Runtime.Extensions": "4.0.0.0",
+          "System.Runtime.InteropServices": "4.0.10.0",
+          "System.Runtime.InteropServices.RuntimeInformation": "4.0.0-rc2-24027",
+          "System.Runtime.Numerics": "4.0.0.0",
+          "System.Text.Encoding": "4.0.0.0",
+          "System.Text.Encoding.Extensions": "4.0.0.0",
+          "System.Text.RegularExpressions": "4.0.0.0",
+          "System.Threading": "4.0.0.0",
+          "System.Threading.Tasks": "4.0.0.0",
+          "System.Threading.Timer": "4.0.0.0",
+          "System.Xml.ReaderWriter": "4.0.0.0",
+          "System.Xml.XDocument": "4.0.0.0"
+        }
+      },
+      "System.Collections/4.0.0.0": {},
+      "System.Collections.Concurrent/4.0.0.0": {},
+      "System.Diagnostics.Debug/4.0.0.0": {},
+      "System.Diagnostics.Tools/4.0.0.0": {},
+      "System.Diagnostics.Tracing/4.0.10.0": {},
+      "System.Globalization/4.0.0.0": {},
+      "System.IO/4.0.0.0": {},
+      "System.IO.Compression/4.0.0.0": {},
+      "System.Linq/4.0.0.0": {},
+      "System.Net.Http/4.0.0.0": {},
+      "System.Net.Primitives/4.0.0.0": {},
+      "System.ObjectModel/4.0.0.0": {},
+      "System.Reflection/4.0.0.0": {},
+      "System.Reflection.Extensions/4.0.0.0": {},
+      "System.Reflection.Primitives/4.0.0.0": {},
+      "System.Resources.ResourceManager/4.0.0.0": {},
+      "System.Runtime/4.0.10.0": {},
+      "System.Runtime.Extensions/4.0.0.0": {},
+      "System.Runtime.InteropServices/4.0.10.0": {},
+      "System.Runtime.InteropServices.RuntimeInformation/4.0.0-rc2-24027": {
+        "dependencies": {
+          "System.Runtime": "4.0.10.0"
+        }
+      },
+      "System.Runtime.Numerics/4.0.0.0": {},
+      "System.Text.Encoding/4.0.0.0": {},
+      "System.Text.Encoding.Extensions/4.0.0.0": {},
+      "System.Text.RegularExpressions/4.0.0.0": {},
+      "System.Threading/4.0.0.0": {},
+      "System.Threading.Tasks/4.0.0.0": {},
+      "System.Threading.Timer/4.0.0.0": {},
+      "System.Xml.ReaderWriter/4.0.0.0": {},
+      "System.Xml.XDocument/4.0.0.0": {},
+      "mscorlib/4.0.0.0": {},
+      "System/4.0.0.0": {},
+      "System.Core/4.0.0.0": {},
+      "Microsoft.CSharp/4.0.0.0": {}
+    }
+  },
+  "libraries": {
+    "Mamma/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.0.1-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BIZpJMovdHgUbCrZR9suwwLpZMNehIkaFKiIb9X5+wPjXNHMSQ91ETSASAnEXERyU7+ptJAfJGqgr3Y9ly98MQ=="
+    },
+    "Microsoft.NETCore.Runtime/1.0.2-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z/R3npq0vJi1urIComaxGXX2CCfv27N78pNa3dMG4fyCQZA6u50v8ttWFnPV1caSN1O5JvDavqpBXVT1FdHcrA=="
+    },
+    "Microsoft.NETCore.Targets/1.0.1-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pNy4HhkgeM1kE/IqtDQLfUcMpy3NB3B/p8J/71G9Wvu2p/ARRH2hjq1TkETiqQW7ER9aFUs86wmgHyk3dtDgVQ=="
+    },
+    "NETStandard.Library/1.5.0-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4f0PviqALhzt6cOGUFibsaXKN+Rh/lwF95LXH9sYURkGjrn28NvkbK18Zw5BXLIL2v2TqzPgaSKsKhUniNMtXA=="
+    },
+    "System.Collections/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Collections.Concurrent/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Diagnostics.Debug/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Diagnostics.Tools/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Diagnostics.Tracing/4.0.10.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Globalization/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.IO/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.IO.Compression/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Linq/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Net.Http/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Net.Primitives/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.ObjectModel/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Reflection/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Reflection.Extensions/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Reflection.Primitives/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Resources.ResourceManager/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Runtime/4.0.10.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Runtime.Extensions/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Runtime.InteropServices/4.0.10.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Runtime.InteropServices.RuntimeInformation/4.0.0-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nsKC00hUZY8SbNHMK3RMu62zEmgdB9xKO+7B30DfLLy5R/10ICrfUVUJvvc/HQC/VSObPUdjYUsqAFoQMIaHHA=="
+    },
+    "System.Runtime.Numerics/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Text.Encoding/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Text.Encoding.Extensions/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Text.RegularExpressions/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Threading/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Threading.Tasks/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Threading.Timer/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Xml.ReaderWriter/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Xml.XDocument/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "mscorlib/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Core/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CSharp/4.0.0.0": {
+      "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

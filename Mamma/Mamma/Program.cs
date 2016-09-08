@@ -2,6 +2,9 @@
 
 namespace Mamma
 {
+    /// <summary>
+    /// Test GIT and VS CODE 2015
+    /// </summary>
     public class Program
     {
         public static void Main(string[] args)
@@ -13,6 +16,7 @@ namespace Mamma
             }
 
             Console.ReadLine();
+
         }
     }
 }
